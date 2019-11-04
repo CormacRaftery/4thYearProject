@@ -26,22 +26,22 @@ For my final year project I have decided to create a dynamic web-application tha
 # How to deploy<a name = "deploy"></a>
 
 # Week by week breakdown<a name = "weekbyweek"></a>
-##Week 1 9/9/19:
+## Week 1 9/9/19:
 Research into what possible project ideas I would be interested in pursuing. 
-##Week 2 16/9/19:
+## Week 2 16/9/19:
 Research into which idea is the most viable for a 4th year project.
-##Week 3 23/9/19:
+## Week 3 23/9/19:
 Idea discussed with project supervisor.
-##Week 4 30/9/19:
+## Week 4 30/9/19:
 Idea altered from discussion with project supervisor.
-##Week 5 7/10/19:
-##Week 6 14/10/19:
+## Week 5 7/10/19:
+## Week 6 14/10/19:
 Github repository created
-##Week 7 21/10/19:
+## Week 7 21/10/19:
 Contents table added to github repository README.md
-##Week 8 28/10/19:
+## Week 8 28/10/19:
 README.md improved greatly
-##Week 9 4/11/19:
+## Week 9 4/11/19:
 # Technologies Incorporated & Architecture<a name = "architecture"></a>
 <p align="center"><img src="https://hackernoon.com/hn-images/0*Nq9iCe61Aq5IxUGl.png" width="400" height="250"></p>
 
