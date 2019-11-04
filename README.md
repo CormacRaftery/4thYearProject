@@ -5,6 +5,7 @@
 * [Introduction](#introduction)
 * [Features](#features)
 * [How to deploy](#deploy)
+* [Week by week breakdown](#weekbyweek)
 * [Technologies Incorporated & Architecture](#architecture) 
 * [Conclusion](#conclusion)
 
@@ -16,3 +17,17 @@
 | **Student** | Cormac Raftery &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; G00348802 |
 | **Project Supervisor** | Mr Gerard Harrison |
 | **Module Supervisor** | Dr John Healy |
+
+# Introduction<a name = "introduction"></a>
+For my final year project I have decided to create a dynamic web-application that allows employees to easily view their schedule and allows employers to upload the schedule. I have been inspired to do this project due to working with a frustrating schedule website over the summer. The aim for this project is to have everything an employee or employer could need in one place. It is a three-tier application, using MongoDB as the Data Tier, Java for the Logic Tier, and Angular 8 for the Presentation Tier. This is a slight change to the currently popular set of technologies otherwise known as the MEAN stack.
+
+# Features<a name = "features"></a>
+
+# How to deploy<a name = "deploy"></a>
+
+# Week by week breakdown<a name = "weekbyweek"></a>
+
+# Technologies Incorporated & Architecture<a name = "architecture"></a>
+<p align="center"><img src="https://hackernoon.com/hn-images/0*Nq9iCe61Aq5IxUGl.png" width="250" height="250"></p>
+
+# Conclusion<a name = "conclusion"></a>
