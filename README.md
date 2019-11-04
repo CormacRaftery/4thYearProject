@@ -24,7 +24,7 @@ For my final year project I have decided to create a dynamic web-application tha
 # Features<a name = "features"></a>
 
 # How to deploy<a name = "deploy"></a>
-
+To deploy this product the tools I have used are Java 11, MongoDB, Eclipse, Visual Studio Code, Angular8, Angular CLI
 # Week by week breakdown<a name = "weekbyweek"></a>
 ## Week 1 9/9/19:
 Research into what possible project ideas I would be interested in pursuing. 
