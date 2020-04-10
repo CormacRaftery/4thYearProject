@@ -43,10 +43,11 @@ memberRoutes.route('/update/:id').post(function (req, res) {
     if (!member)
       res.status(404).send("Record not found");
     else {
-      member.MemberName = req.body.MemberName;
-      member.MemberBio = req.body.MemberBio;
-      member.MemberAge = req.body.MemberAge;
-
+      member.EmployeeFirstName = req.body.EmployeeFirstName;
+      member.EmployeeSecondName = req.body.EmployeeSecondName;
+      member.EmployeeId = req.body.EmployeeId;
+      member.EmployeeRecord = req.body.EmployeeRecord;
+      member.EmployeeAge = req.body.EmployeeAge;
       member.save().then(member => {
         res.json('Update complete');
       })

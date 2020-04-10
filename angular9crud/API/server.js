@@ -5,7 +5,6 @@ const express = require('express'),
     mongoose = require('mongoose'),
     config = require('./DB');
 memberRoute = require('./routes/member.route');
-
 mongoose.Promise = global.Promise;
 mongoose.connect(config.DB, { useUnifiedTopology: true, useNewUrlParser: true }).then(
     () => { console.log('Database is connected') },
