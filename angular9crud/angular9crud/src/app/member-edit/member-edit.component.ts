@@ -18,14 +18,16 @@ export class MemberEditComponent implements OnInit {
   }
   createForm() {
     this.angForm = this.fb.group({
-      MemberName: ['', Validators.required],
-      MemberBio: ['', Validators.required],
-      MemberAge: ['', Validators.required]
+      EmployeeFirstName: ['', Validators.required],
+      EmployeeSecondName: ['', Validators.required],
+      EmployeeId: ['', Validators.required],
+      EmployeeRecord: ['', Validators.required],
+      EmployeeAge: ['', Validators.required]
     });}
 
-    updateMember(MemberName, MemberBio, MemberAge) {
+    updateMember(EmployeeFirstName, EmployeeSecondName, EmployeeId, EmployeeRecord, EmployeeAge) {
       this.route.params.subscribe(params => {
-        this.ms.updateMember(MemberName, MemberBio, MemberAge, params.id);
+        this.ms.updateMember(EmployeeFirstName, EmployeeSecondName, EmployeeId, EmployeeRecord, EmployeeAge, params.id);
         this.router.navigate(['members']);
       });
     }

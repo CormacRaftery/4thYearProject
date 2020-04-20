@@ -1,31 +1,29 @@
 <table class="table table-hover">
     <thead>
-    <tr>
-        <!--<td>Member Name</td>
-        <td>Member Bio</td>
-        <td>Member Age</td>-->
-        <td>Employee First Name</td>
-        <td>Employee Second Name</td>
-        <td>Employee Id</td>
-        <td>Employee Record</td>
-        <td>Employee Age</td>
-        <td colspan="2">Actions</td>
-    </tr>
+        <tr>
+            <td colspan="3"><label class="col-md-4">Manager Password:</label></td>
+            <td><input type="text"  class="form-control" id="pw"></td>
+        </tr>
+        <tr>
+            <td>Employee First Name</td>
+            <td>Employee Second Name</td>
+            <td>Employee Id</td>
+            <td>Employee Shifts this week</td>
+            <td>Employee Age</td>
+            <td colspan="2">Actions</td>
+        </tr>
     </thead>
-  
+
     <tbody>
         <tr *ngFor="let member of members; let i = index">
-            <!--<td>{{ member.MemberName }}</td>
-            <td>{{ member.MemberBio }}</td>
-            <td>{{ member.MemberAge }}</td>-->
             <td>{{ member.EmployeeFirstName }}</td>
             <td>{{ member.EmployeeSecondName }}</td>
             <td>{{ member.EmployeeId }}</td>
             <td>{{ member.EmployeeRecord }}</td>
             <td>{{ member.EmployeeAge }}</td>
-            <td><a [routerLink]="['/edit', member._id]" class="btn btn-primary">Edit</a></td>
-           <td><a (click) = "deleteMember(member._id, i)" class="btn btn-danger">Delete</a>
+            <td><a (click)="editMember(member._id)" class="btn btn-primary">Edit</a></td>
+            <td><a (click)="deleteMember(member._id, i)" class="btn btn-danger">Delete</a>
         </tr>
     </tbody>
-    
-  </table>
+
+</table>

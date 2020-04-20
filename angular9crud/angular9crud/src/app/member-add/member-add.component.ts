@@ -16,9 +16,6 @@ export class MemberAddComponent implements OnInit {
 
   createForm() {
     this.angForm = this.fb.group({
-     /* MemberName: ['', Validators.required],
-      MemberBio: ['', Validators.required],
-      MemberAge: ['', Validators.required]*/
       EmployeeFirstName: ['', Validators.required],
       EmployeeSecondName: ['', Validators.required],
       EmployeeId: ['', Validators.required],
@@ -27,13 +24,11 @@ export class MemberAddComponent implements OnInit {
     });
   }
 
-  /*addMember(MemberName, MemberBio, MemberAge) {
-    this.ms.addMember(MemberName, MemberBio, MemberAge);
-    this.router.navigate(['members']);
-  }*/
   addMember(EmployeeFirstName, EmployeeSecondName, EmployeeId, EmployeeRecord, EmployeeAge) {
-    this.ms.addMember(EmployeeFirstName, EmployeeSecondName, EmployeeId, EmployeeRecord, EmployeeAge);
-    this.router.navigate(['members']);
+    if (((<HTMLInputElement>document.getElementById("pw")).value) == "ManagerPassword") {
+      this.ms.addMember(EmployeeFirstName, EmployeeSecondName, EmployeeId, EmployeeRecord, EmployeeAge);
+      this.router.navigate(['members']);
+    }
   }
 
   ngOnInit(): void {
