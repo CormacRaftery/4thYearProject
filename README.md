@@ -1,11 +1,11 @@
-# 4thYearProject
+# CRScheduling
 
 ## [Contents](#contents)
 * [Project Details](#details)
 * [Introduction](#introduction)
 * [Features](#features)
+* [Prerequisites](#prerequisites)
 * [How to deploy](#deploy)
-* [Week by week breakdown](#weekbyweek)
 * [Technologies Incorporated & Architecture](#architecture) 
 * [Conclusion](#conclusion)
 
@@ -19,30 +19,25 @@
 | **Module Supervisor** | Dr John Healy |
 
 # Introduction<a name = "introduction"></a>
-For my final year project I have decided to create a dynamic web-application that allows employees to easily view their schedule and allows employers to upload the schedule. I have been inspired to do this project due to working with a frustrating schedule website over the summer. The aim for this project is to have everything an employee or employer could need in one place. It is a three-tier application, using MongoDB as the Data Tier, Java for the Logic Tier, and Angular 8 for the Presentation Tier. This is a slight change to the currently popular set of technologies otherwise known as the MEAN stack.
+For my final year project I have decided to create a dynamic web-application that allows employees to easily view their schedule and allows employers to upload the schedule. I have been inspired to do this project due to working with a frustrating schedule website over the summer. The aim for this project is to have everything an employee or employer could need in one place.This Readme is only a short summary of the project while a much deeper look into the project is detailed in the Dissertation above.
 
 # Features<a name = "features"></a>
+This project provides an employer with a simple scheduling system for his employees.
+
+# Prerequisites <a name = "prerequisites"></a>
+Before launching the project you should ensure you have each of the following technologies installed.
+Node v13.3.0
+NPM v6.13.7
+AngularCLI v9.0.3
+MongoDB shell version v3.6.3
+MongoDB version v3.6.3
 
 # How to deploy<a name = "deploy"></a>
-To deploy this product the tools I have used are Java 11, MongoDB, Eclipse, Visual Studio Code, Angular8, Angular CLI
-# Week by week breakdown<a name = "weekbyweek"></a>
-## Week 1 9/9/19:
-Research into what possible project ideas I would be interested in pursuing. 
-## Week 2 16/9/19:
-Research into which idea is the most viable for a 4th year project.
-## Week 3 23/9/19:
-Idea discussed with project supervisor.
-## Week 4 30/9/19:
-Idea altered from discussion with project supervisor.
-## Week 5 7/10/19:
-## Week 6 14/10/19:
-Github repository created
-## Week 7 21/10/19:
-Contents table added to github repository README.md
-## Week 8 28/10/19:
-README.md improved greatly
-## Week 9 4/11/19:
+To deploy this product locally you can simply clone this repository and open up 3 command prompts. In the first command prompt you can go into the directory 4thYearProject, then Angular9crud and then Angular9crud again. In this folder you may run "npm install" provided you already have the angular CLI installed globally. You may then run "ng serve --open". In the second command prompt you can go to the same directory and provided you are connected to mongoDB using the MongoDB compass you can run "mongod". In the third command prompt you can go into the API directory and run "npm install express body-parser cors mongoose --save". You should then be able to launch the nodemon server with "nodemon server".
+
 # Technologies Incorporated & Architecture<a name = "architecture"></a>
 <p align="center"><img src="https://hackernoon.com/hn-images/0*Nq9iCe61Aq5IxUGl.png" width="400" height="250"></p>
+This project is a three-tier application, using MongoDB as the Data Tier, Nodejs and express as the Logic Tier, and Angular 9 as the Presentation Tier. This project consists of technologies that are commonly know as the mean stack.
 
 # Conclusion<a name = "conclusion"></a>
+While the project did not reach all its original goals, it still provided basic functionality for a scheduling system. The security and layout of the project were poor. Using multiple technologies was very interesting trying to mesh them together and a lot was learned from the project.
