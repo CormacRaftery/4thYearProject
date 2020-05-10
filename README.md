@@ -8,6 +8,7 @@
 * [How to deploy](#deploy)
 * [Technologies Incorporated & Architecture](#architecture) 
 * [Conclusion](#conclusion)
+* [References](#references)
 
 | Project Details   |     |
 | --- | --- |
@@ -41,3 +42,33 @@ This project is a three-tier application, using MongoDB as the Data Tier, Nodejs
 
 # Conclusion<a name = "conclusion"></a>
 While the project did not reach all its original goals, it still provided basic functionality for a scheduling system. The security and layout of the project were poor. Using multiple technologies was very interesting trying to mesh them together and a lot was learned from the project.
+
+# References<a name = "references"></a>
+This is a collection of the references I used while developing the project.
+
+https://cli.angular.io/
+
+https://www.mongodb.com/
+
+https://stackoverflow.com/questions/43721971/conditionally-disable-router-link-in-angular/43722687
+
+https://stackoverflow.com/questions/56559996/how-to-prevent-default-click-behavior-of-a-routerlink-in-angular-app
+
+https://stackoverflow.com/questions/48533227/angular-disable-submit-button-using-disabled-to-check-form-validity
+
+https://superuser.com/questions/569085/pscp-is-not-recognized-as-an-internal-or-external-command-error/889479
+
+https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+https://jasonwatmore.com/post/2019/12/02/angular-nodejs-on-aws-how-to-deploy-a-mean-stack-app-to-amazon-ec2
+
+https://appdividend.com/2020/02/24/angular-9-tutorial-how-to-build-angular-9-crud-app/
+
+https://appdividend.com/2018/10/29/mongodb-crud-operations-tutorial-with-example/
+
+https://appdividend.com/2017/09/23/angular-router-tutorial-example/
+
